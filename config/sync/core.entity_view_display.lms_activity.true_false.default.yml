@@ -26,5 +26,6 @@ content:
 hidden:
   bool_expected: true
   description: true
+  langcode: true
   name: true
   uid: true

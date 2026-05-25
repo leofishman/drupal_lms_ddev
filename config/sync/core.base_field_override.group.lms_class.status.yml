@@ -1,0 +1,22 @@
+uuid: 2628f9af-ff8f-4bbc-87de-c2ccda4bafa7
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.lms_class
+id: group.lms_class.status
+field_name: status
+entity_type: group
+bundle: lms_class
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -15,6 +15,7 @@ bundle: free_text
 mode: default
 content: {  }
 hidden:
+  langcode: true
   minimum_characters: true
   name: true
   questions: true

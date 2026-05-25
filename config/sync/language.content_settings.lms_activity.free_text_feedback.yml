@@ -1,0 +1,18 @@
+uuid: bc7656a9-4c7f-41be-89ca-291584cead5e
+langcode: en
+status: true
+dependencies:
+  config:
+    - lms.lms_activity_type.free_text_feedback
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: lms_activity.free_text_feedback
+target_entity_type_id: lms_activity
+target_bundle: free_text_feedback
+default_langcode: site_default
+language_alterable: false

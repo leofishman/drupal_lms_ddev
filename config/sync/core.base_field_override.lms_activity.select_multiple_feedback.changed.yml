@@ -1,0 +1,18 @@
+uuid: 46859cef-fc09-4a49-87b1-ea1e93d0908e
+langcode: en
+status: true
+dependencies:
+  config:
+    - lms.lms_activity_type.select_multiple_feedback
+id: lms_activity.select_multiple_feedback.changed
+field_name: changed
+entity_type: lms_activity
+bundle: select_multiple_feedback
+label: Changed
+description: 'The time that the Activity was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

@@ -1,0 +1,11 @@
+uuid: ae506bb6-5e07-44a0-9fae-53127649ffb3
+langcode: en
+status: true
+dependencies:
+  module:
+    - lms
+id: lms_answer.lms_answer
+target_entity_type_id: lms_answer
+target_bundle: lms_answer
+default_langcode: site_default
+language_alterable: false

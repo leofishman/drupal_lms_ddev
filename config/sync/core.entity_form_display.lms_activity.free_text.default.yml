@@ -16,6 +16,13 @@ targetEntityType: lms_activity
 bundle: free_text
 mode: default
 content:
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
   minimum_characters:
     type: number
     weight: 26

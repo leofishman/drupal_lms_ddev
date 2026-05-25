@@ -1,0 +1,17 @@
+uuid: f647d8bb-a41f-4de3-9fd1-be649e33308c
+langcode: en
+status: true
+dependencies:
+  module:
+    - content_translation
+    - lms
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: lms_lesson.lesson
+target_entity_type_id: lms_lesson
+target_bundle: lesson
+default_langcode: site_default
+language_alterable: false

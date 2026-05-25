@@ -26,6 +26,7 @@ content:
 hidden:
   feedback_if_absent: true
   feedback_if_present: true
+  langcode: true
   minimum_characters: true
   name: true
   phrase_feedback: true

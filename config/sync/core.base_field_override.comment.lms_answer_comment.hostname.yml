@@ -1,0 +1,18 @@
+uuid: e38ba3cf-379c-4ca3-8639-b66c17aaf1f5
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.lms_answer_comment
+id: comment.lms_answer_comment.hostname
+field_name: hostname
+entity_type: comment
+bundle: lms_answer_comment
+label: Hostname
+description: "The comment author's hostname."
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: 'Drupal\comment\Entity\Comment::getDefaultHostname'
+settings: {  }
+field_type: string

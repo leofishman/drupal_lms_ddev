@@ -1,0 +1,18 @@
+uuid: 5158bd4d-0ca1-4b21-9adf-391737cfd185
+langcode: en
+status: true
+dependencies:
+  config:
+    - lms.lms_activity_type.true_false
+id: lms_activity.true_false.changed
+field_name: changed
+entity_type: lms_activity
+bundle: true_false
+label: Changed
+description: 'The time that the Activity was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

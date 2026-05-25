@@ -1,0 +1,18 @@
+uuid: 45a81df5-089e-42bc-986e-134c171f5337
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.lms_answer_comment
+id: comment.lms_answer_comment.created
+field_name: created
+entity_type: comment
+bundle: lms_answer_comment
+label: Created
+description: 'The time that the comment was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

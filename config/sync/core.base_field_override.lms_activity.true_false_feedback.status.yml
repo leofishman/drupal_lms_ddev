@@ -1,0 +1,22 @@
+uuid: 9658a169-d653-4433-808c-72f2486a67aa
+langcode: en
+status: true
+dependencies:
+  config:
+    - lms.lms_activity_type.true_false_feedback
+id: lms_activity.true_false_feedback.status
+field_name: status
+entity_type: lms_activity
+bundle: true_false_feedback
+label: Published
+description: 'Unpublished activities cannot be a part of a published lesson.'
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,20 @@
+uuid: fa206de6-4117-4bfe-9001-83f6185a989c
+langcode: en
+status: true
+dependencies:
+  module:
+    - lms
+id: lms_lesson.lesson.uid
+field_name: uid
+entity_type: lms_lesson
+bundle: lesson
+label: 'Authored by'
+description: 'The user ID of author of the Lesson entity.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

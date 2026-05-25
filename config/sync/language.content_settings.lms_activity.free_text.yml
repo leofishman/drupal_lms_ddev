@@ -1,0 +1,18 @@
+uuid: 17cd5a4a-b05a-456a-9785-531bb9e2b6b5
+langcode: en
+status: true
+dependencies:
+  config:
+    - lms.lms_activity_type.free_text
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: lms_activity.free_text
+target_entity_type_id: lms_activity
+target_bundle: free_text
+default_langcode: site_default
+language_alterable: false

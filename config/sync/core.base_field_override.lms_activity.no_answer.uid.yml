@@ -1,0 +1,20 @@
+uuid: 4ea927d2-6032-44d3-93c4-5eb546794c53
+langcode: en
+status: true
+dependencies:
+  config:
+    - lms.lms_activity_type.no_answer
+id: lms_activity.no_answer.uid
+field_name: uid
+entity_type: lms_activity
+bundle: no_answer
+label: 'Authored by'
+description: 'The user ID of author of the Activity entity.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

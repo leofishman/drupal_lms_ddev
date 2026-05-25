@@ -1,0 +1,22 @@
+uuid: 00e5ded9-e4f2-4853-8029-4f134f65a668
+langcode: en
+status: true
+dependencies:
+  module:
+    - lms
+    - text
+id: lms_lesson.lesson.description
+field_name: description
+entity_type: lms_lesson
+bundle: lesson
+label: Description
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: ''
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

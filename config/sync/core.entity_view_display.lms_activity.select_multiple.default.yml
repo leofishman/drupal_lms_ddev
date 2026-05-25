@@ -22,5 +22,6 @@ content:
     region: content
 hidden:
   answers: true
+  langcode: true
   name: true
   uid: true

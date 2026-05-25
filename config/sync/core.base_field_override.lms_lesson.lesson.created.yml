@@ -1,0 +1,18 @@
+uuid: cca4ee2a-0b04-4ca7-a2f6-9ec1a0f51557
+langcode: en
+status: true
+dependencies:
+  module:
+    - lms
+id: lms_lesson.lesson.created
+field_name: created
+entity_type: lms_lesson
+bundle: lesson
+label: 'Authored on'
+description: 'The time that the Lesson was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

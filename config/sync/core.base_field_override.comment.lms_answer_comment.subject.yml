@@ -1,0 +1,18 @@
+uuid: a967eb6f-1e0d-4b1d-84b2-eacc21308405
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.lms_answer_comment
+id: comment.lms_answer_comment.subject
+field_name: subject
+entity_type: comment
+bundle: lms_answer_comment
+label: Subject
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

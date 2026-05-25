@@ -1,0 +1,18 @@
+uuid: 4c2f89d2-ffba-4361-81d9-ee8517dedecb
+langcode: en
+status: true
+dependencies:
+  config:
+    - lms.lms_activity_type.select_single
+id: lms_activity.select_single.created
+field_name: created
+entity_type: lms_activity
+bundle: select_single
+label: 'Authored on'
+description: 'The time that the Activity was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

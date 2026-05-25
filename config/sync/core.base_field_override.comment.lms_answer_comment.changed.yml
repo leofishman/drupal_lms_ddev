@@ -1,0 +1,18 @@
+uuid: 1dce93fd-1534-4f71-b57e-d22457abb386
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.lms_answer_comment
+id: comment.lms_answer_comment.changed
+field_name: changed
+entity_type: comment
+bundle: lms_answer_comment
+label: Changed
+description: 'The time that the comment was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

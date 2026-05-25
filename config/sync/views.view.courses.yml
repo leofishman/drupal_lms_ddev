@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - group.type.lms_course
+    - system.menu.account
   module:
     - group
     - lms
@@ -107,6 +108,15 @@ display:
     display_options:
       display_extenders: {  }
       path: courses
+      menu:
+        type: normal
+        title: Cursos
+        description: ''
+        weight: 0
+        expanded: false
+        menu_name: account
+        parent: ''
+        context: '0'
     cache_metadata:
       max-age: -1
       contexts:

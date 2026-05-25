@@ -30,5 +30,6 @@ hidden:
   description: true
   feedback_if_correct: true
   feedback_if_wrong: true
+  langcode: true
   name: true
   uid: true

@@ -1,0 +1,20 @@
+uuid: c7bfebe6-b0f1-4b83-ab2a-830bf5ad5c2b
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.relationship_type.lms_course-lms_classes
+id: group_relationship.lms_course-lms_classes.uid
+field_name: uid
+entity_type: group_relationship
+bundle: lms_course-lms_classes
+label: 'Group relationship creator'
+description: 'The username of the group relationship creator.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: 'Drupal\group\Entity\GroupRelationship::getDefaultEntityOwner'
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

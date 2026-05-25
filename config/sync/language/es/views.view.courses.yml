@@ -1,0 +1,16 @@
+label: Coursos
+display:
+  default:
+    display_options:
+      title: Coursos
+      pager:
+        options:
+          expose:
+            items_per_page_label: 'Cursos x pagina'
+      empty:
+        area:
+          content:
+            value: "No hay cursos disponibles.\r\n Puede agregar uno."
+            format: plain_text
+  page_1:
+    display_title: Pagina

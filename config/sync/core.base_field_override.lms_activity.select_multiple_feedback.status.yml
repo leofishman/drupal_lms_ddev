@@ -1,0 +1,22 @@
+uuid: 3c91111b-1691-439e-a290-d676ede14f65
+langcode: en
+status: true
+dependencies:
+  config:
+    - lms.lms_activity_type.select_multiple_feedback
+id: lms_activity.select_multiple_feedback.status
+field_name: status
+entity_type: lms_activity
+bundle: select_multiple_feedback
+label: Published
+description: 'Unpublished activities cannot be a part of a published lesson.'
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean
