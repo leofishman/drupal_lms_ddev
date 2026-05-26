@@ -1,5 +1,5 @@
 uuid: ac6da775-bd19-4ce0-8bc2-dd13ed29f0fe
-langcode: en
+langcode: es
 status: true
 dependencies:
   module:
@@ -7,7 +7,7 @@ dependencies:
 _core:
   default_config_hash: JBptjnfuOMtsdKygklXxoOgeOCTMtQxlkymjnnj-cC0
 id: node_unpromote_action
-label: 'Remove content from front page'
+label: 'Eliminar contenido de la página de inicio'
 type: node
 plugin: node_unpromote_action
 configuration: {  }

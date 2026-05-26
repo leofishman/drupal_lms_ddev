@@ -6,7 +6,7 @@ webserver_type: nginx-fpm
 xdebug_enabled: false
 additional_hostnames: []
 additional_fqdns:
-    - sva.fishman.work
+    - cva.fishman.work
 database:
     type: mariadb
     version: "11.4"

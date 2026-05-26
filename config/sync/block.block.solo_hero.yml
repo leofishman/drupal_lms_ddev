@@ -1,0 +1,28 @@
+uuid: fc1c08b3-b70a-4a54-9495-fcbd87cfe6de
+langcode: es
+status: true
+dependencies:
+  content:
+    - 'block_content:bloque_basico:fb94a49e-7482-447e-80e3-347595774f7b'
+  module:
+    - block_content
+    - system
+  theme:
+    - solo
+id: solo_hero
+theme: solo
+region: welcome_text
+weight: 0
+provider: null
+plugin: 'block_content:fb94a49e-7482-447e-80e3-347595774f7b'
+settings:
+  id: 'block_content:fb94a49e-7482-447e-80e3-347595774f7b'
+  label: Hero
+  label_display: '0'
+  provider: block_content
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

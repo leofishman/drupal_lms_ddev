@@ -1,5 +1,5 @@
 uuid: 368e9705-74cc-4153-a5c3-59fccd1ad7c2
-langcode: en
+langcode: es
 status: true
 dependencies:
   theme:
@@ -14,7 +14,7 @@ provider: null
 plugin: local_tasks_block
 settings:
   id: local_tasks_block
-  label: Tabs
+  label: Pestañas
   label_display: '0'
   provider: core
   primary: true

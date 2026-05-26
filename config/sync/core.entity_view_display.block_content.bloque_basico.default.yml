@@ -1,0 +1,23 @@
+uuid: 78acbfad-e214-4ca7-af52-3ec4c5a5c328
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.bloque_basico
+    - field.field.block_content.bloque_basico.field_body
+  module:
+    - text
+id: block_content.bloque_basico.default
+targetEntityType: block_content
+bundle: bloque_basico
+mode: default
+content:
+  field_body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  langcode: true
