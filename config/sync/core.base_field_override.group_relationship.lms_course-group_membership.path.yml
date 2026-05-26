@@ -1,0 +1,20 @@
+uuid: c31ffb46-627b-44f4-8244-0059cddfbb14
+langcode: es
+status: true
+dependencies:
+  config:
+    - group.relationship_type.lms_course-group_membership
+  module:
+    - path
+id: group_relationship.lms_course-group_membership.path
+field_name: path
+entity_type: group_relationship
+bundle: lms_course-group_membership
+label: 'Alias de URL'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

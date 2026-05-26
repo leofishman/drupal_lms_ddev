@@ -14,7 +14,7 @@ bundle: free_text_feedback
 label: 'Minimum characters'
 description: 'The minimum number of characters required for the answer to be accepted. Use 0 for no minimum.'
 required: false
-translatable: false
+translatable: true
 default_value:
   -
     value: 50

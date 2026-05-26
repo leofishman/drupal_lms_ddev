@@ -11,7 +11,7 @@ bundle: lesson
 label: 'Backwards navigation'
 description: 'Allow users to go back and revisit activities already answered.'
 required: false
-translatable: false
+translatable: true
 default_value:
   -
     value: 0

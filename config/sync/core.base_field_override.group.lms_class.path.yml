@@ -1,0 +1,20 @@
+uuid: 433fdf0a-8768-4706-949f-4194d43195a2
+langcode: es
+status: true
+dependencies:
+  config:
+    - group.type.lms_class
+  module:
+    - path
+id: group.lms_class.path
+field_name: path
+entity_type: group
+bundle: lms_class
+label: 'Alias de URL'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

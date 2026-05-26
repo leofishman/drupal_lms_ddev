@@ -11,7 +11,7 @@ bundle: select_multiple
 label: Published
 description: 'Unpublished activities cannot be a part of a published lesson.'
 required: false
-translatable: false
+translatable: true
 default_value:
   -
     value: 1

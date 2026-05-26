@@ -16,7 +16,7 @@ bundle: free_text_feedback
 label: 'Phrase-based Feedback'
 description: 'Define phrases to search for in student answers, and give feedback based on whether they are present or absent.'
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings: {  }

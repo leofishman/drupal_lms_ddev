@@ -16,7 +16,7 @@ bundle: select_single_feedback
 label: 'Answer feedback if correct'
 description: 'Feedback to give the student when they have selected the correct answer.'
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:

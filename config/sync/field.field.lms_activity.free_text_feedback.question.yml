@@ -16,7 +16,7 @@ bundle: free_text_feedback
 label: Question
 description: 'The question or instruction that you want the student to respond to. You may want to include some guidance on what they should write about.'
 required: true
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:

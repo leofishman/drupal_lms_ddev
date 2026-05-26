@@ -1,0 +1,19 @@
+uuid: 69712f0b-632b-4ec6-bc76-cb53ccadd571
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.lms_course
+    - user.role.authenticated
+id: lms_course-member
+label: Student
+weight: -5
+admin: false
+scope: insider
+global_role: authenticated
+group_type: lms_course
+permissions:
+  - 'leave group'
+  - 'take course'
+  - 'view group'
+  - 'view group_membership relationship'

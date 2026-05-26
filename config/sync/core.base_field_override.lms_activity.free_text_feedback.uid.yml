@@ -11,7 +11,7 @@ bundle: free_text_feedback
 label: 'Authored by'
 description: 'The user ID of author of the Activity entity.'
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:

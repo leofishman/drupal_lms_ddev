@@ -4,7 +4,7 @@ status: true
 dependencies:
   config:
     - group.type.lms_course
-    - system.menu.account
+    - system.menu.main
   module:
     - group
     - lms
@@ -114,7 +114,7 @@ display:
         description: ''
         weight: 0
         expanded: false
-        menu_name: account
+        menu_name: main
         parent: ''
         context: '0'
     cache_metadata:

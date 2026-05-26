@@ -12,7 +12,7 @@ bundle: lesson
 label: 'Randomize activities'
 description: "<strong>Random order</strong> - all activities display in random order<br/><strong>Random activities</strong> - specific number of activities are drawn randomly from this lesson's pool"
 required: true
-translatable: false
+translatable: true
 default_value:
   -
     value: '0'

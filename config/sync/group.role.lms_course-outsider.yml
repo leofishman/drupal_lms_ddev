@@ -15,4 +15,5 @@ group_type: lms_course
 permissions:
   - 'join group'
   - 'request group membership'
+  - 'take course'
   - 'view group'

@@ -4,6 +4,7 @@ status: true
 dependencies:
   module:
     - comment
+    - lms
     - system
 _core:
   default_config_hash: dJ0L2DNSj5q6XVZAGsuVDpJTh5UeYkIPwKrUOOpr8YI
@@ -15,3 +16,5 @@ permissions:
   - 'access comments'
   - 'access content'
   - 'post comments'
+  - 'use all lms_activity entities'
+  - 'use all lms_lesson entities'

@@ -6,7 +6,14 @@ dependencies:
     - field.storage.lms_activity.field_image
     - lms.lms_activity_type.no_answer
   module:
+    - content_translation
     - image
+third_party_settings:
+  content_translation:
+    translation_sync:
+      alt: alt
+      title: title
+      file: '0'
 id: lms_activity.no_answer.field_image
 field_name: field_image
 entity_type: lms_activity
@@ -14,7 +21,7 @@ bundle: no_answer
 label: Image
 description: ''
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:

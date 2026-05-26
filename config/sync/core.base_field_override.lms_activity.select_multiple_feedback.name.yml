@@ -11,7 +11,7 @@ bundle: select_multiple_feedback
 label: Name
 description: 'The name of the Activity entity.'
 required: true
-translatable: false
+translatable: true
 default_value:
   -
     value: ''
