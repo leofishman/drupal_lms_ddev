@@ -13,5 +13,4 @@ scope: outsider
 global_role: anonymous
 group_type: lms_course
 permissions:
-  - 'take course'
   - 'view group'
