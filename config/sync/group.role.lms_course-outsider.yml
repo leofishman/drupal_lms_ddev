@@ -16,4 +16,3 @@ permissions:
   - 'join group'
   - 'request group membership'
   - 'view group'
-  - 'view group_membership relationship'

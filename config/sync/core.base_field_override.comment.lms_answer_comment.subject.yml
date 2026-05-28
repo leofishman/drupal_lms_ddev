@@ -1,5 +1,5 @@
-uuid: a967eb6f-1e0d-4b1d-84b2-eacc21308405
-langcode: en
+uuid: 7b813ffd-c6a6-4471-83d7-38740255df1c
+langcode: es
 status: true
 dependencies:
   config:
@@ -8,7 +8,7 @@ id: comment.lms_answer_comment.subject
 field_name: subject
 entity_type: comment
 bundle: lms_answer_comment
-label: Subject
+label: Asunto
 description: ''
 required: false
 translatable: false

@@ -1,14 +1,16 @@
 uuid: 119552a2-6c1c-4372-add5-d80694e8cddc
-langcode: es
+langcode: en
 status: true
 dependencies:
   module:
+    - media
     - system
 _core:
   default_config_hash: j5zLMOdJBqC0bMvSdth5UebkprJB8g_2FXHqhfpJzow
 id: anonymous
-label: 'Usuario anónimo'
+label: 'Anonymous user'
 weight: 0
 is_admin: false
 permissions:
   - 'access content'
+  - 'view media'

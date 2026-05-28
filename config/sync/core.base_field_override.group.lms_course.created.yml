@@ -1,5 +1,5 @@
-uuid: 7fec2e66-b220-4b37-b76d-b12159151b5b
-langcode: en
+uuid: 9c5f6650-9da9-432c-8e2b-3bac80a424bb
+langcode: es
 status: true
 dependencies:
   config:
@@ -11,7 +11,7 @@ bundle: lms_course
 label: 'Created on'
 description: 'The time that the group was created.'
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }

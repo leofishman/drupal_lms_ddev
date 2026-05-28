@@ -1,11 +1,13 @@
-uuid: 2525f9f6-419c-48bf-8a35-a93dfb354e68
+uuid: 19030bb7-2dd5-4a3c-8746-3811d8f472a5
 langcode: en
 status: true
 dependencies:
   module:
     - path_alias
+_core:
+  default_config_hash: dhjFABRzm52DkRXnYja5ZoHwjY0R3gEGic3KpDUXgRo
 id: path_alias.path_alias
 target_entity_type_id: path_alias
 target_bundle: path_alias
-default_langcode: site_default
-language_alterable: false
+default_langcode: und
+language_alterable: true

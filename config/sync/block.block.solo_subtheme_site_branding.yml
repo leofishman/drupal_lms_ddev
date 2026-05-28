@@ -1,0 +1,25 @@
+uuid: 9c62eea5-6350-49af-9e6d-fa08f565e161
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - solo_subtheme
+_core:
+  default_config_hash: n_nlgjggHVfQt2H__zvLOKB2YtjPDbQ5tHijF9LE1aM
+id: solo_subtheme_site_branding
+theme: solo_subtheme
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Marca del sitio'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: false
+visibility: {  }

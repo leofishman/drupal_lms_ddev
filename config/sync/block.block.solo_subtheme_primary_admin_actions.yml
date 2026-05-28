@@ -1,0 +1,20 @@
+uuid: 43c6e2c5-02a5-484e-a0a6-67bbbf161fe0
+langcode: en
+status: true
+dependencies:
+  theme:
+    - solo_subtheme
+_core:
+  default_config_hash: Q9_2whdOj1YIomfvsIfopROW4FT_X5pY0DjdOiOaQ5U
+id: solo_subtheme_primary_admin_actions
+theme: solo_subtheme
+region: highlighted
+weight: -5
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Acciones principales de administración'
+  label_display: '0'
+  provider: core
+visibility: {  }

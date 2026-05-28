@@ -5,6 +5,8 @@ dependencies:
   config:
     - field.field.group_relationship.lms_class-group_membership.group_roles
     - group.relationship_type.lms_class-group_membership
+  module:
+    - path
 _core:
   default_config_hash: tpQSOftzoKjC9eQpIBTIHCQ7Dmnh9fvCAIl1zrZe-bs
 id: group_relationship.lms_class-group_membership.default
@@ -34,6 +36,12 @@ content:
     region: content
     settings:
       include_locked: true
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 30
+    region: content
+    settings: {  }
     third_party_settings: {  }
 hidden:
   uid: true

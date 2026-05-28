@@ -1,5 +1,5 @@
-uuid: c281d4ff-ac48-4ddc-8477-ab5bea2b1c3f
-langcode: en
+uuid: 0946b674-0dd1-482e-b191-268ea6ca4020
+langcode: es
 status: true
 dependencies:
   config:
@@ -11,7 +11,7 @@ bundle: lms_course
 label: 'Group creator'
 description: 'The username of the group creator.'
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: 'Drupal\group\Entity\Group::getDefaultEntityOwner'
 settings:

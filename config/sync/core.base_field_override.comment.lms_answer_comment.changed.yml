@@ -1,5 +1,5 @@
-uuid: 1dce93fd-1534-4f71-b57e-d22457abb386
-langcode: en
+uuid: 83159a4b-182d-45e9-bcb7-242a3e202725
+langcode: es
 status: true
 dependencies:
   config:
@@ -8,8 +8,8 @@ id: comment.lms_answer_comment.changed
 field_name: changed
 entity_type: comment
 bundle: lms_answer_comment
-label: Changed
-description: 'The time that the comment was last edited.'
+label: Modificado
+description: 'Fecha en que el comentario fue editado por última vez.'
 required: false
 translatable: false
 default_value: {  }

@@ -1,22 +1,19 @@
 uuid: 6448e5f4-12c9-40f3-a2d2-38e85da727c0
-langcode: es
+langcode: en
 status: true
 dependencies:
   module:
     - comment
-    - group
-    - lms
+    - media
     - system
 _core:
   default_config_hash: dJ0L2DNSj5q6XVZAGsuVDpJTh5UeYkIPwKrUOOpr8YI
 id: authenticated
-label: 'Usuario autenticado'
+label: 'Authenticated user'
 weight: 1
 is_admin: false
 permissions:
   - 'access comments'
   - 'access content'
-  - 'access group overview'
   - 'post comments'
-  - 'use all lms_activity entities'
-  - 'use all lms_lesson entities'
+  - 'view media'

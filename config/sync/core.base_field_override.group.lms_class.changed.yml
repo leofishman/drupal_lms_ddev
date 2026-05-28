@@ -1,5 +1,5 @@
-uuid: 095d89e9-0b33-4508-87d5-38d1c0629561
-langcode: en
+uuid: c094a0f6-d14a-45ac-a111-83d37bc15559
+langcode: es
 status: true
 dependencies:
   config:
@@ -11,7 +11,7 @@ bundle: lms_class
 label: 'Changed on'
 description: 'The time that the group was last edited.'
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }

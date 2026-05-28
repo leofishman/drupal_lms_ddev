@@ -1,8 +1,0 @@
-uuid: 8f6c10f2-0ce2-4397-83d6-91f0c74e2120
-langcode: es
-status: true
-dependencies: {  }
-id: bloque_basico
-label: 'Bloque basico'
-revision: false
-description: null

@@ -6,14 +6,7 @@ dependencies:
     - field.storage.group.field_image
     - group.type.lms_course
   module:
-    - content_translation
     - image
-third_party_settings:
-  content_translation:
-    translation_sync:
-      alt: alt
-      title: title
-      file: '0'
 id: group.lms_course.field_image
 field_name: field_image
 entity_type: group
@@ -21,7 +14,7 @@ bundle: lms_course
 label: Image
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:

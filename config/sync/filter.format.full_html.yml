@@ -1,8 +1,8 @@
-uuid: 11220f1b-2ace-4905-888b-a8366c47293c
-langcode: en
+uuid: d5b185d3-b9db-42ca-b68d-784722f5765e
+langcode: es
 status: true
 dependencies: {  }
-name: 'Full html'
+name: 'Full Html'
 format: full_html
 weight: 0
 filters:

@@ -1,5 +1,5 @@
-uuid: b862852e-e4f3-4fa6-b5f6-95d99a58ae94
-langcode: en
+uuid: aa526a6a-6a52-4e73-8b38-b43df027983d
+langcode: es
 status: true
 dependencies:
   config:
@@ -14,16 +14,15 @@ settings:
       - heading
       - bold
       - italic
-      - '|'
-      - sourceEditing
-      - bulletedList
-      - numberedList
-      - horizontalLine
-      - alignment
-      - insertTable
       - drupalInsertImage
+      - insertTable
+      - alignment
       - indent
       - outdent
+      - horizontalLine
+      - bulletedList
+      - blockQuote
+      - sourceEditing
   plugins:
     ckeditor5_alignment:
       enabled_alignments:

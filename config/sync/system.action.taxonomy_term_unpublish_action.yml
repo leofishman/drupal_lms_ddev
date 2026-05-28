@@ -1,5 +1,5 @@
-uuid: b5538ceb-8a4e-473f-a100-e332b5330bfe
-langcode: es
+uuid: 8c6cc9f3-dbac-4ec4-b363-990283a0671a
+langcode: en
 status: true
 dependencies:
   module:
@@ -7,7 +7,7 @@ dependencies:
 _core:
   default_config_hash: z2sNRM3ECa7FPCGnSNje_9SmZJQgwhD_6fG_L4Mr8zI
 id: taxonomy_term_unpublish_action
-label: 'Despublicar término de taxonomía'
+label: 'Unpublish taxonomy term'
 type: taxonomy_term
 plugin: 'entity:unpublish_action:taxonomy_term'
 configuration: {  }

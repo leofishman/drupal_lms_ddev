@@ -1,5 +1,5 @@
-uuid: df556245-1867-402f-a8a1-d348400e5ff7
-langcode: en
+uuid: 1c42ce13-8c7d-4ce5-bb37-a411963eccf0
+langcode: es
 status: true
 dependencies:
   config:
@@ -8,7 +8,7 @@ id: comment.lms_answer_comment.status
 field_name: status
 entity_type: comment
 bundle: lms_answer_comment
-label: Published
+label: Publicado
 description: ''
 required: false
 translatable: false
@@ -17,6 +17,6 @@ default_value:
     value: 1
 default_value_callback: 'Drupal\comment\Entity\Comment::getDefaultStatus'
 settings:
-  on_label: 'On'
-  off_label: 'Off'
+  on_label: Activado
+  off_label: Desactivado
 field_type: boolean

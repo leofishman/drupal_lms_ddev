@@ -13,6 +13,8 @@ module:
   config_translation: 0
   contextual: 0
   dblog: 0
+  devel: 0
+  developer_console: 0
   dynamic_page_cache: 0
   editor: 0
   entity: 0
@@ -23,6 +25,7 @@ module:
   flexible_permissions: 0
   group: 0
   image: 0
+  inline_form_errors: 0
   language: 0
   link: 0
   lms: 0
@@ -30,6 +33,8 @@ module:
   lms_answer_plugins: 0
   lms_classes: 0
   locale: 0
+  media: 0
+  media_library: 0
   menu_link_content: 0
   menu_ui: 0
   mysql: 0
@@ -53,7 +58,6 @@ theme:
   stark: 0
   claro: 0
   olivero: 0
-  stable9: 0
-  tara: 0
   solo: 0
+  solo_subtheme: 0
 profile: minimal

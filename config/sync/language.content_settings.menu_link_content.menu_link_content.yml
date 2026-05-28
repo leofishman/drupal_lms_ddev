@@ -1,5 +1,5 @@
-uuid: 57b1132a-9402-4580-8b73-a49ff5c23971
-langcode: en
+uuid: a8a6ba1a-6c27-4427-a8c6-c82b737594e4
+langcode: es
 status: true
 dependencies:
   module:
@@ -7,11 +7,11 @@ dependencies:
     - menu_link_content
 third_party_settings:
   content_translation:
-    enabled: true
+    enabled: false
     bundle_settings:
       untranslatable_fields_hide: '0'
 id: menu_link_content.menu_link_content
 target_entity_type_id: menu_link_content
 target_bundle: menu_link_content
 default_langcode: site_default
-language_alterable: true
+language_alterable: false

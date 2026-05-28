@@ -1,5 +1,5 @@
-uuid: e8de4885-0d69-4eaf-9be9-1a703948f4b5
-langcode: es
+uuid: fe8d2c0d-cf53-47fc-8c22-abf9b68df22b
+langcode: en
 status: true
 dependencies:
   module:
@@ -17,7 +17,7 @@ provider: null
 plugin: user_login_block
 settings:
   id: user_login_block
-  label: 'Inicio de sesión'
+  label: 'User login'
   label_display: '0'
   provider: user
 visibility:

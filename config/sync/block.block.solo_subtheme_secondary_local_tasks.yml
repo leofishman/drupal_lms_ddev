@@ -1,0 +1,22 @@
+uuid: daa56886-b921-4962-8123-3ba9f57bf74c
+langcode: en
+status: true
+dependencies:
+  theme:
+    - solo_subtheme
+_core:
+  default_config_hash: ydSxdq7R66I8UMC460rOzlfzvlUL4VRbdwc6z9DWaUI
+id: solo_subtheme_secondary_local_tasks
+theme: solo_subtheme
+region: highlighted
+weight: -2
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Solapas secundarias'
+  label_display: '0'
+  provider: core
+  primary: false
+  secondary: true
+visibility: {  }

@@ -10,6 +10,7 @@ dependencies:
   module:
     - image
     - lms
+    - path
     - text
 _core:
   default_config_hash: AvxoRlOK0TTXrOKua9aDBmd4CrlV9-lu7V5mHoOvO9k
@@ -87,6 +88,12 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
+  path:
+    type: path
+    weight: 30
+    region: content
+    settings: {  }
+    third_party_settings: {  }
   revisit_mode:
     type: boolean_checkbox
     weight: 2
@@ -102,5 +109,4 @@ content:
       display_label: true
     third_party_settings: {  }
 hidden:
-  path: true
   uid: true

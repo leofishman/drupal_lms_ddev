@@ -1,5 +1,5 @@
-uuid: bb6c312c-d42e-4fa6-bd70-a562e7887b39
-langcode: es
+uuid: 99c151ba-5a77-48fa-8901-024c78d55c52
+langcode: en
 status: true
 dependencies:
   theme:
@@ -8,13 +8,13 @@ _core:
   default_config_hash: 03Jl-eNW3zdEf4kyH46w0XK5nnnMyfEa9CVOEUzQTEA
 id: solo_page_title
 theme: solo
-region: content
+region: page_title
 weight: 0
 provider: null
 plugin: page_title_block
 settings:
   id: page_title_block
-  label: 'Título de la página'
+  label: 'Page title'
   label_display: '0'
   provider: core
 visibility: {  }

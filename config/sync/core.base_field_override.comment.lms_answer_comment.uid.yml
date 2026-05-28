@@ -1,5 +1,5 @@
-uuid: 5c5f9e60-df7e-4b5f-9ed6-f984025b273a
-langcode: en
+uuid: d240faa7-b256-4792-897b-8c536441771d
+langcode: es
 status: true
 dependencies:
   config:
@@ -8,8 +8,8 @@ id: comment.lms_answer_comment.uid
 field_name: uid
 entity_type: comment
 bundle: lms_answer_comment
-label: 'User ID'
-description: 'The user ID of the comment author.'
+label: 'ID de Usuario'
+description: 'El ID de usuario del autor del comentario.'
 required: false
 translatable: false
 default_value: {  }

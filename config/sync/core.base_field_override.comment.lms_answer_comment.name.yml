@@ -1,5 +1,5 @@
-uuid: 7f95e028-a6ce-4626-9e8f-370be0bce2dd
-langcode: en
+uuid: 036ac7b9-1579-467d-9f98-342d14170b7c
+langcode: es
 status: true
 dependencies:
   config:
@@ -8,8 +8,8 @@ id: comment.lms_answer_comment.name
 field_name: name
 entity_type: comment
 bundle: lms_answer_comment
-label: Name
-description: "The comment author's name."
+label: Nombre
+description: 'El nombre del autor del comentario.'
 required: false
 translatable: false
 default_value:

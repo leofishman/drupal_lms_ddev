@@ -1,5 +1,5 @@
-uuid: 432ac536-bb27-4d0e-a631-3d940d8676cc
-langcode: en
+uuid: f01123ae-94a0-4eb0-bf1a-3611f5054e32
+langcode: es
 status: true
 dependencies:
   config:
@@ -8,8 +8,8 @@ id: comment.lms_answer_comment.mail
 field_name: mail
 entity_type: comment
 bundle: lms_answer_comment
-label: Email
-description: "The comment author's email address."
+label: 'Correo electrónico'
+description: 'La dirección de correo electrónico del autor del comentario.'
 required: false
 translatable: false
 default_value: {  }

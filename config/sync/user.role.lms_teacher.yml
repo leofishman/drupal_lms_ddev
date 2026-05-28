@@ -2,7 +2,10 @@ uuid: 4f342c93-944f-4c47-945e-793f552e0a89
 langcode: en
 status: true
 dependencies:
+  config:
+    - filter.format.full_html
   module:
+    - filter
     - group
     - lms
     - system
@@ -19,4 +22,5 @@ permissions:
   - 'create lms_class group'
   - 'create lms_course group'
   - 'create lms_lesson entities'
+  - 'use text format full_html'
   - 'view the administration theme'

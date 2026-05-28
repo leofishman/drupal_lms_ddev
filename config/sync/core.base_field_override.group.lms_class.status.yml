@@ -1,5 +1,5 @@
-uuid: 2628f9af-ff8f-4bbc-87de-c2ccda4bafa7
-langcode: en
+uuid: 878daa90-9585-42af-8fc3-8e0cf4106130
+langcode: es
 status: true
 dependencies:
   config:
@@ -8,15 +8,15 @@ id: group.lms_class.status
 field_name: status
 entity_type: group
 bundle: lms_class
-label: Published
+label: Publicado
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value:
   -
     value: 1
 default_value_callback: ''
 settings:
-  on_label: 'On'
-  off_label: 'Off'
+  on_label: Activado
+  off_label: Desactivado
 field_type: boolean

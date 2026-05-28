@@ -1,5 +1,5 @@
-uuid: 5ff68e52-476c-4eca-a597-60eb99fc20cd
-langcode: en
+uuid: 6fbd26b6-5ae8-4717-bd2a-405e9ec73e12
+langcode: es
 status: true
 dependencies:
   module:
@@ -8,8 +8,8 @@ id: user.user.changed
 field_name: changed
 entity_type: user
 bundle: user
-label: Changed
-description: 'The time that the user was last edited.'
+label: Modificado
+description: 'El momento en que el usuario fue editado por última vez.'
 required: false
 translatable: false
 default_value: {  }

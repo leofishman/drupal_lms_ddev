@@ -1,5 +1,5 @@
-uuid: 28403984-a3de-4094-8cab-87e7bcad17cc
-langcode: en
+uuid: 26009584-6a0e-41d1-9ccc-39aca95cc3ac
+langcode: es
 status: true
 dependencies:
   config:
@@ -8,11 +8,11 @@ dependencies:
     - content_translation
 third_party_settings:
   content_translation:
-    enabled: true
+    enabled: false
     bundle_settings:
       untranslatable_fields_hide: '0'
 id: group.lms_course
 target_entity_type_id: group
 target_bundle: lms_course
 default_langcode: site_default
-language_alterable: true
+language_alterable: false

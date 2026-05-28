@@ -1,5 +1,5 @@
-uuid: 45a81df5-089e-42bc-986e-134c171f5337
-langcode: en
+uuid: 794c4304-a0ec-471f-b4bd-db24246f946b
+langcode: es
 status: true
 dependencies:
   config:
@@ -8,8 +8,8 @@ id: comment.lms_answer_comment.created
 field_name: created
 entity_type: comment
 bundle: lms_answer_comment
-label: Created
-description: 'The time that the comment was created.'
+label: Creado
+description: 'Fecha en que el comentario fue creado.'
 required: false
 translatable: false
 default_value: {  }

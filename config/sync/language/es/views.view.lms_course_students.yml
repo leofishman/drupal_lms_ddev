@@ -13,6 +13,7 @@ display:
         last_activity_ts:
           separator: ', '
         gid:
+          label: Clase
           separator: ', '
         operations:
           label: Operaciones
@@ -36,5 +37,9 @@ display:
         classes_filter:
           exception:
             title: Todo(s)
+      filters:
+        classes_filter:
+          expose:
+            label: Clase
   page:
     display_title: Página

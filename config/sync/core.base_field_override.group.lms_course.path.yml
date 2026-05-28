@@ -1,4 +1,4 @@
-uuid: 3fc1ffba-5021-4ca9-af88-1acd2ddf44ce
+uuid: f285605d-368f-4046-96c3-126afa77a5ae
 langcode: es
 status: true
 dependencies:
@@ -13,7 +13,7 @@ bundle: lms_course
 label: 'Alias de URL'
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
